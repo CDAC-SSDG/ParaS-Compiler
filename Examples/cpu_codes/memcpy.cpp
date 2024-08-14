@@ -4,7 +4,7 @@ using namespace paras::sycl;
 static const int N = 16;
 
   int main() {
-  queue q;
+  queue q{cpu_selector{}};
 
   std::cout << "Device: "<< q.get_device().get_info<info::device::name>() << std::endl;
 
