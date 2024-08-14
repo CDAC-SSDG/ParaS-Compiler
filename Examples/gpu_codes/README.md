@@ -3,7 +3,7 @@
 
 ## Command for Compilation
 ```bash
-parascc convolution.cpp -O3 -ffast-math -parasdevice cuda:sm_x 
+parascc convolution.cpp -parasdevice cuda:sm_x -O3 -ffast-math
 ```
 where x is compute capability NVIDIA GPU
 
