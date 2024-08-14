@@ -10,7 +10,7 @@
 + [Contact Us](contact-us) 
 
 ## About 
-ParaS (sounds like **paa-ruhs**) is an implementation of the [SYCL 2020 specification](), developed to facilitate architectural and vendor neutral programming. This initial version enables seamless execution across Intel and AMD (x86) and ARM based CPUs and CUDA enabled Nvidia GPUs, this truly embodies the principle of *Code Once and Execute on All*.
+ParaS (sounds like **paa-ruhs**) is an implementation of the [SYCL 2020 specification](https://registry.khronos.org/SYCL/specs/sycl-2020/html/sycl-2020.html), developed to facilitate architectural and vendor neutral programming. This initial version enables seamless execution across Intel and AMD (x86) and ARM based CPUs and CUDA enabled Nvidia GPUs, this truly embodies the principle of *Code Once and Execute on All*.
 
 
 ## Requirements
