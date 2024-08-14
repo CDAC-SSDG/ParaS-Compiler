@@ -23,5 +23,5 @@ bash install_paras.sh
 ## Usage: 
 **Run the singularity container**
 ```bash
-bash singularity run ParaS_v0.5_x86.sif
+singularity run ParaS_v0.5_x86.sif
 ```
