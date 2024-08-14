@@ -30,7 +30,7 @@ git clone git@github.com:CDAC-SSDG/ParaS-Compiler.git
 bash install_paras.sh
 ```
 ## Usage: 
-**Run the singularity container**
+**To enter in the singularity container environment**
 + For CPU
 ```bash
 singularity run ParaS_v0.5_x86.sif
