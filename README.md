@@ -5,8 +5,8 @@
 + [About](https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/README.md#about)
 + [Requirements](https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/README.md#requirements)
 + [Installation](https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/README.md#installation)
-+ [Usage](https://github.com/CDAC-SSDG/ParaS-Compiler/edit/blob/README.md#usage)
-+ [Issues](https://github.com/CDAC-SSDG/ParaS-Compiler/edit/blob/README.md#issues)
++ [Usage](https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/README.md#usage)
++ [Issues](https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/README.md#issues)
 + [Contact Us](https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/README.md#contact-us) 
 
 ## About 
