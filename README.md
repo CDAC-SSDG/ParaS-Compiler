@@ -31,9 +31,17 @@ bash install_paras.sh
 ```
 ## Usage: 
 **Run the singularity container**
++ For CPU
 ```bash
 singularity run ParaS_v0.5_x86.sif
 ```
+
++ For Nvidia GPU
+```bash
+singularity run --nv ParaS_v0.5_x86.sif
+```
+***where, --nv is to load CUDA drivers***
+
 **For compilation**
 
 + For CPU
