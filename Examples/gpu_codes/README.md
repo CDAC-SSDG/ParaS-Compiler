@@ -1,4 +1,4 @@
-# Compiling codes for NVIDIA GPU device
+# Compiling codes for Nvidia GPU device
 ---
 
 ## Command for Compilation
