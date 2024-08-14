@@ -32,7 +32,7 @@ bash install_paras.sh
 **Run the singularity container**
 ```bash
 singularity run ParaS_v0.5_x86.sif
-``
+```
 **For compilation**
 
 + For CPU
