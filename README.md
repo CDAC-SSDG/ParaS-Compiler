@@ -25,3 +25,4 @@ bash install_paras.sh
 ```bash
 singularity run ParaS_v0.5_x86.sif
 ```
+Then execute your commands
