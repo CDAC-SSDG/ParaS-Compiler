@@ -2,12 +2,12 @@
 ---
 
 ## Table of Contents
-+ [About](https://github.com/CDAC-SSDG/ParaS-Compiler/edit/main/README.md#about)
-+ [Requirements](https://github.com/CDAC-SSDG/ParaS-Compiler/edit/main/README.md#requirements)
-+ [Installation](https://github.com/CDAC-SSDG/ParaS-Compiler/edit/main/README.md#installation)
-+ [Usage](https://github.com/CDAC-SSDG/ParaS-Compiler/edit/main/README.md#usage)
-+ [Issues](https://github.com/CDAC-SSDG/ParaS-Compiler/edit/main/README.md#issues)
-+ [Contact Us](https://github.com/CDAC-SSDG/ParaS-Compiler/edit/main/README.md#contact-us) 
++ [About](https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/README.md#about)
++ [Requirements](https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/README.md#requirements)
++ [Installation](https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/README.md#installation)
++ [Usage](https://github.com/CDAC-SSDG/ParaS-Compiler/edit/blob/README.md#usage)
++ [Issues](https://github.com/CDAC-SSDG/ParaS-Compiler/edit/blob/README.md#issues)
++ [Contact Us](https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/README.md#contact-us) 
 
 ## About 
 ParaS (sounds like **paa-ruhs**) is an implementation of the [SYCL 2020 specification](https://registry.khronos.org/SYCL/specs/sycl-2020/html/sycl-2020.html), developed to facilitate architectural and vendor neutral programming. This initial version enables seamless execution across Intel and AMD (x86) and ARM based CPUs and CUDA enabled Nvidia GPUs, this truly embodies the principle of ***Code Once and Execute on All***.
