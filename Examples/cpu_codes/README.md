@@ -3,7 +3,7 @@
 
 ## Command for compilation
 ```bash
-parascc convolution.cpp -O3 -ffast-math
+parascc convolution.cpp 
 ```
 ## Executing the compiled binary
 ```bash
