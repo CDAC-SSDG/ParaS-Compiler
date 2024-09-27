@@ -1,3 +1,4 @@
+![paras_logo](https://github.com/CDAC-SSDG/ParaS-Compiler/PARAS_logo.png)
 # ParaS-Compiler
 ---
 
