@@ -1,6 +1,12 @@
-<img src="https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/PARAS_logo.png">
+<h1>
+<p align="center">
+<img src="https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/PARAS_logo.png" width="100" height="100" style="">
+<br>
+  ParaS-Compiler
+</p>
+</h1>
 
-# ParaS-Compiler
+
 ---
 
 ## Table of Contents
@@ -35,12 +41,12 @@ bash install_paras.sh
 **To enter in the singularity container environment**
 + For CPU
 ```bash
-singularity run ParaS_v0.5_x86.sif
+singularity run --bind /etc:/etc ParaS_v0.5_x86.sif
 ```
 
 + For Nvidia GPU
 ```bash
-singularity run --nv ParaS_v0.5_x86.sif
+singularity run --nv --bind /etc:/etc ParaS_v0.5_x86.sif
 ```
 ***where, --nv is to load CUDA drivers***
 
