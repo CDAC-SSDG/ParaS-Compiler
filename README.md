@@ -1,4 +1,4 @@
-![paras_logo](PARAS_logo.png =100x100)
+![paras_logo](PARAS_logo.png | width=100)
 # ParaS-Compiler
 ---
 
