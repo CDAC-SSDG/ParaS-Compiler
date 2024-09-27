@@ -1,4 +1,4 @@
-<img src="https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/PARAS_logo.png" width="100" height="100">
+<img src="https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/PARAS_logo.png">
 
 # ParaS-Compiler
 ---
