@@ -54,14 +54,14 @@ get_license() {
 	mkdir -p ~/.paras/
 	cp /etc/machine-id ~/.paras/machine-id
 	mv license_key ~/.paras/license_key
+ 	chmod 644 ~/.paras/license_key
 	echo "[PARAS DOWNLOADER LOG]: Completed."
 	rm encrypted_text
 }
 
 get_paras() {
 	echo "[PARAS DOWNLOADER LOG]: Downloading PARAS ..."
-	wget https://nsmindia.in/download/ParaS_v0.5_x86.sif --no-check-certificate
-	echo" wget command here " && echo ["PARAS DOWNLOADER LOG]: Download complete!"
+	wget https://nsmindia.in/download/ParaS_v0.5_x86.sif --no-check-certificate && echo ["PARAS DOWNLOADER LOG]: Download complete!"
 }
 
 banner
