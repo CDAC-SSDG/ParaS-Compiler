@@ -63,7 +63,7 @@ parascc <program.cpp> -parasdevice cuda:sm_<x> [Compiler Optimization Flags] -o 
 ***where, x is the compute capability of Nvidia GPU***
 
 ## Issues
-Issues can be raised in the issues section of the git repositery
+Issues can be raised in the issues section of the git repositery. In case of issues with the download, contact paras@cdac.in. 
 
 ## Contact Us
 Contact us at *paras@cdac.in*
