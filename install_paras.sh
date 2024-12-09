@@ -2,6 +2,7 @@
 
 CYAN="\033[0;36m"
 WHITE="\033[0m"
+CURRENT_PROCESS="NULL"
 
 banner() {
 	echo;
@@ -28,6 +29,29 @@ banner() {
 	echo;
 }
 
+failure_message() {
+	case $1 in
+		openssl)
+			echo "[PARAS DOWNLOADER ERROR]: Exiting due to error with openssl."
+			rm key.pem
+			exit
+			;;
+		curl)
+			echo "[PARAS DOWNLOADER ERROR]: Exiting due to error with curl."
+			rm data.tar.gz encrypted_text
+			exit
+			;;
+		wget)
+			echo "[PARAS DOWLOADER ERROR]: Exiting due to error with wget."
+			exit
+			;;
+		*)
+			echo "[PARAS DOWNLOADER ERROR]: Undefined error!"
+			exit
+			;;
+	esac
+}
+
 get_unique_identifier() {
 	echo "[PARAS DOWNLOADER LOG]: Creating key file ..."
 	pfile=key.pem
@@ -41,27 +65,35 @@ get_unique_identifier() {
 	echo "owIDAQAB" >> $pfile
 	echo "-----END PUBLIC KEY-----" >> $pfile
 	echo "[PARAS DOWNLOADER LOG]: Created key."
-
 	echo "[PARAS DOWNLOADER LOG]: Encrypting machine uniqueness ..."
 	openssl pkeyutl -encrypt -inkey $pfile -pubin -in /etc/machine-id -out encrypted_text && echo "[PARAS DOWNLOADER LOG]: Completed."
-	rm $pfile
+	if [ $? -ne 0 ]; then
+		failure_message "openssl"
+	fi
+	# rm $pfile
 }
 
 get_license() {
-	echo "[PARAS DOWNLOADER LOG]: Getting license ..."
-	tar -czvf data.tar.gz encrypted_text
+	echo "[PARAS DOWNLOADER LOG]: Getting license from server ..."
+	tar -czf data.tar.gz encrypted_text
 	curl -F "tarfiles=@./data.tar.gz" http://44.232.50.92:5000/upload -o license_key
+	if [ $? -ne 0 ]; then
+		failure_message "curl"
+	fi
 	mkdir -p ~/.paras/
-	cp /etc/machine-id ~/.paras/machine-id
-	mv license_key ~/.paras/license_key
- 	chmod 644 ~/.paras/license_key
-	echo "[PARAS DOWNLOADER LOG]: Completed."
-	rm encrypted_text
+	mv license_key ~/.paras/license_key-`hostname`
+ 	chmod 644 ~/.paras/license_key-`hostname`
+	echo "[PARAS DOWNLOADER LOG]: License download completed."
+	rm encrypted_text data.tar.gz
 }
 
 get_paras() {
 	echo "[PARAS DOWNLOADER LOG]: Downloading PARAS ..."
-	wget https://nsmindia.in/download/ParaS_v0.5_x86.sif --no-check-certificate && echo ["PARAS DOWNLOADER LOG]: Download complete!"
+	wget https://nsmindia.in/download/ParaS_v0.5.1_x86.sif --no-check-certificate 
+	if [ $? -ne 0 ]; then
+		failure_message "wget"
+	fi
+	echo "[PARAS DOWNLOADER LOG]: Download complete!"
 }
 
 banner
@@ -69,4 +101,5 @@ get_unique_identifier
 get_license
 get_paras
 
-echo "[PARAS DOWNLOADER LOG]: Setup complete." 
+echo "[PARAS DOWNLOADER LOG]: ParaS v0.5.1 Setup complete." 
+
