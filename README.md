@@ -41,12 +41,12 @@ bash install_paras.sh
 **To enter in the singularity container environment**
 + For CPU
 ```bash
-singularity run --bind /etc:/etc ParaS_v0.5_x86.sif
+singularity run --bind /etc:/etc ParaS_v0.5.1_x86.sif
 ```
 
 + For Nvidia GPU
 ```bash
-singularity run --nv --bind /etc:/etc ParaS_v0.5_x86.sif
+singularity run --nv --bind /etc:/etc ParaS_v0.5.1_x86.sif
 ```
 ***where, --nv is to load CUDA drivers***
 
