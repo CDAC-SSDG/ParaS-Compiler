@@ -31,7 +31,7 @@ The current version enables seamless execution across CPUs of x86 (Intel and AMD
 
 **Step-1: Git clone**
 ```bash
-git clone git@github.com:CDAC-SSDG/ParaS-Compiler.git
+git clone https://github.com/CDAC-SSDG/ParaS-Compiler.git
 ```
 **Step-2: Run the installer script**
 ```bash
