@@ -89,7 +89,7 @@ get_license() {
 
 get_paras() {
 	echo "[PARAS DOWNLOADER LOG]: Downloading PARAS ..."
-	wget https://nsmindia.in/download/ParaS_v0.5.1_x86.sif --no-check-certificate 
+	wget https://nsmindia.in/download/ParaS_v0.5.1_x86_NSM.sif --no-check-certificate 
 	if [ $? -ne 0 ]; then
 		failure_message "wget"
 	fi
