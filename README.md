@@ -12,6 +12,7 @@
 ## Table of Contents
 + [About](https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/README.md#about)
 + [Requirements](https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/README.md#requirements)
++ [Platforms Supported](https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/README.md#platforms-supported)
 + [Installation](https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/README.md#installation)
 + [Usage](https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/README.md#usage)
 + [Issues](https://github.com/CDAC-SSDG/ParaS-Compiler/blob/main/README.md#issues)
@@ -26,6 +27,17 @@ The current version enables seamless execution across CPUs of x86 (Intel and AMD
 + Linux OS
 + Singularity
 + OpenSSL
+
+## Platforms Supported
+
+**ParaS is supported on the following architectures:** 
+  + CPU: *X86, ARM, Power*
+  + GPU: *CUDA*
+    
+> [!NOTE]
+> *ParaS has been tested on the following processors*
+>  + *CPUs: Intel (Skylake, CascadeLake, Sapphire Rapids), AMD Gen 4 EPYC processors, NVIDIA Grace, Altra, Fujitsu A64FX, IBM Power 10*
+>  + *GPUs: Tesla V100, Ampere A100, Hopper (H100, H200)*
 
 ## Installation
 
