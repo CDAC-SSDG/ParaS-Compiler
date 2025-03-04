@@ -33,7 +33,7 @@ using local_accessor =
 
 int main()
 {
-	paras::sycl::queue myQueue{paras::sycl::cpu_selector{}} ;
+	paras::sycl::queue myQueue{paras::sycl::gpu_selector{}} ;
 
     std::cout << "Device: "<< myQueue.get_device().get_info<paras::sycl::info::device::name>() << std::endl;
   const int iterations_per_output =
