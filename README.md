@@ -46,9 +46,19 @@ The current version enables seamless execution across CPUs of x86 (Intel and AMD
 git clone https://github.com/CDAC-SSDG/ParaS-Compiler.git
 ```
 **Step-2: Run the installer script**
-```bash
-bash install_paras.sh
-```
+
+> [!NOTE]
+> If using an **Intel processor** use the following command
+> ```bash
+> bash install_paras.sh intel
+> ```
+
+> [!NOTE]
+> If using an **AMD processor** use the following command
+>  ```bash
+> bash install_paraas.sh amd
+> ```
+
 ## Usage: 
 **To enter in the singularity container environment**
 + For CPU
