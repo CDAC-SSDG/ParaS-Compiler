@@ -89,7 +89,16 @@ get_license() {
 
 get_paras() {
 	echo "[PARAS DOWNLOADER LOG]: Downloading PARAS ..."
-	wget https://nsmindia.in/download/ParaS_v0.5.1_x86_NSM.sif --no-check-certificate 
+ 	case $1 in 
+  		intel)
+    			echo "[PARAS DOWNLOADER LOG]: Chose Intel version ..."
+       			wget https://nsmindia.in/download/ParaS_v0.5.1_x86_NSM.sif --no-check-certificate 
+	  	;;
+    		amd)
+      			echo "[PARAS DOWNLOADER LOG]: Chose AMD version ..."
+       			wget https://nsmindia.in/download/ParaS_v0.5.1_x86_AMD.sif --no-check-certificate 
+	  	;;
+    	esac
 	if [ $? -ne 0 ]; then
 		failure_message "wget"
 	fi
@@ -99,7 +108,13 @@ get_paras() {
 banner
 get_unique_identifier
 get_license
-get_paras
+
+if [ $# -eq 0 ]; then
+	echo "Script requires either amd or intel as an additional argument for download to progres"
+	echo "[PARAS DOWNLOADER LOG]: ParaS v0.5.1 Setup incomplete." 
+	exit	
+fi
+
+get_paras $1
 
 echo "[PARAS DOWNLOADER LOG]: ParaS v0.5.1 Setup complete." 
-
