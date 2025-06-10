@@ -56,7 +56,7 @@ git clone https://github.com/CDAC-SSDG/ParaS-Compiler.git
 > [!NOTE]
 > If using an **AMD processor** use the following command
 >  ```bash
-> bash install_paraas.sh amd
+> bash install_paras.sh amd
 > ```
 
 ## Usage: 
