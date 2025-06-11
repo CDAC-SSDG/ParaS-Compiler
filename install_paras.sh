@@ -98,6 +98,10 @@ get_paras() {
       			echo "[PARAS DOWNLOADER LOG]: Chose AMD version ..."
        			wget https://nsmindia.in/download/ParaS_v0.5.1_x86_AMD.sif --no-check-certificate 
 	  	;;
+    		*)
+                        echo "[PARAS DOWNLOADER LOG]: Choose either amd or intel ."
+                        exit
+                ;;	
     	esac
 	if [ $? -ne 0 ]; then
 		failure_message "wget"
