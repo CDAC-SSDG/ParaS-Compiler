@@ -1,5 +1,5 @@
 // ===================================================================
-//     VECTOR ADDITION USING SYCL BUFFERS (ONE FINAL TABLE ONLY)
+//                 VECTOR ADDITION USING SYCL BUFFERS 
 // ===================================================================
 
 #include <sycl/sycl.hpp>
@@ -58,7 +58,7 @@ int main() {
     auto Chost = bufC.get_access<access::mode::read>();
 
     // ===================================================================
-    // FINAL OUTPUT TABLE (ONLY ONE TABLE)
+    // FINAL OUTPUT TABLE 
     // ===================================================================
 
     cout << "====================== VECTOR ADDITION RESULT ======================\n\n";
