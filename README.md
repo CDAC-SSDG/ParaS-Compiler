@@ -7,4 +7,4 @@ The latest source code, documentation, releases, and all ParaS ecosystem compone
 
 **https://github.com/ParaS-Ecosystem**
 
-Thank you for your continued support. We look forward to collaborating with the community and working together to advance the ParaS Ecosystem through this new open-source initiative.
+Thank you for your continued support. We look forward to collaborate with you through this new open-source initiative.
