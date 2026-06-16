@@ -1,20 +1,11 @@
-# ⚠️ Repository Moved
+The **ParaS Project** has been released as an open-source project through the **Linux Foundation India** under the **ParaS Ecosystem**.
 
-This repository is no longer actively maintained.
+This repository is no longer the primary location for development.
 
-The **ParaS Compiler** project has been moved to its new official repository under the **ParaS Ecosystem** organization.
+The latest source code, documentation, releases, and all ParaS ecosystem components are now available under the official **ParaS Ecosystem** organization:
 
-## New Repository
+**https://github.com/ParaS-Ecosystem**
 
-**ParaS Compiler:**
-https://github.com/ParaS-Ecosystem/ParaS-Compiler
+The link to the new **ParaS Compiler** repository can be found within the ParaS Ecosystem organization.
 
-## ParaS Ecosystem
-
-Explore the complete ParaS Ecosystem, including the compiler, libraries, and AI frameworks:
-
-https://github.com/ParaS-Ecosystem
-
-Please update your bookmarks and references to use the new repository.
-
-Thank you for your continued support of the ParaS Ecosystem.
+Thank you for your continued support. We look forward to collaborating with the community and working together to advance the ParaS Ecosystem through this new open-source initiative.
