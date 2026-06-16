@@ -6,6 +6,15 @@ The **ParaS Compiler** project has been moved to its new official repository und
 
 ## New Repository
 
-👉 **https://github.com/ParaS-Ecosystem/ParaS-Compiler**
+**ParaS Compiler:**
+https://github.com/ParaS-Ecosystem/ParaS-Compiler
 
-Please update your bookmarks, remotes, and references to use the new repository.
+## ParaS Ecosystem
+
+Explore the complete ParaS Ecosystem, including the compiler, libraries, and AI frameworks:
+
+https://github.com/ParaS-Ecosystem
+
+Please update your bookmarks and references to use the new repository.
+
+Thank you for your continued support of the ParaS Ecosystem.
