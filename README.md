@@ -3,10 +3,8 @@ This repository is no longer actively maintained
 The **ParaS Ecosystem** has been released as an open-source project through **Linux Foundation India**.
 
 
-The latest source code, documentation, releases, and all ParaS ecosystem components are now available under the official **ParaS Ecosystem** organization:
+The latest source code, documentation, releases, and all ParaS ecosystem components are now available through the link below:
 
 **https://github.com/ParaS-Ecosystem**
-
-The link to the new **ParaS Compiler** repository can be found within the ParaS Ecosystem organization.
 
 Thank you for your continued support. We look forward to collaborating with the community and working together to advance the ParaS Ecosystem through this new open-source initiative.
