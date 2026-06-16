@@ -1,6 +1,7 @@
+This repository is no longer actively maintained
+
 The **ParaS Project** has been released as an open-source project through the **Linux Foundation India** under the **ParaS Ecosystem**.
 
-This repository is no longer the primary location for development.
 
 The latest source code, documentation, releases, and all ParaS ecosystem components are now available under the official **ParaS Ecosystem** organization:
 
